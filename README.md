@@ -3,7 +3,7 @@
 ## Project Description
 
 This project showcases the power of AWS Serverless Computing by automating word count
-processing using **AWS Lambda**. Each time a text file is uploaded to an **Amazon S3** bucket, an **AWS Lambda** function is triggered to count the number of words in the file. The result is then sent via email using **Amazon Simple Notification Service (SNS)**.
+processing using **AWS Lambda** with **Python scripting**. Each time a text file is uploaded to an **Amazon S3** bucket, an **AWS Lambda** function is triggered to count the number of words in the file. The result is then sent via email using **Amazon Simple Notification Service (SNS)**.
 
 ## Architecture Overview
 
@@ -11,7 +11,7 @@ processing using **AWS Lambda**. Each time a text file is uploaded to an **Amazo
 
 ## Technologies Used
 
-* **AWS Lambda**: Python-based function execution.
+* **AWS Lambda** and **Python**: Python-based function execution.
 * **Amazon S3**: Storage for text files triggering Lambda execution.
 * **Amazon SNS**: Notification service for email alerts.
 * **https://app.diagrams.net**: Architecture diagram.
